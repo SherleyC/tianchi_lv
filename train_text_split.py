@@ -5,7 +5,8 @@ import random
 from collections import Counter
 from collections import defaultdict
 
-
+#classes = {'正常':'norm', '不导电':'defect1', '擦花':'defect2', '横条压凹':'defect3', '桔皮':'defect4', '漏底':'defect5', 
+#'碰伤':'defect6', '起坑':'defect7', '凸粉':'defect8', '涂层开裂':'defect9', '脏点':'defect10', '其他':'defect11'}
 #============输入路径dir，输出所有图片路径及标签的txt文件===============
 def get_train_val_txt(filedir, save_txt):
     paths = get_folder_path(filedir)
