@@ -267,7 +267,7 @@ def demo(save, depth=100, growth_rate=32, efficient=False, valid_size=420,
     model = DenseNet(
         growth_rate=growth_rate,
         block_config=block_config,
-        num_classes=10,
+        num_classes=12,
         small_inputs=False,
         efficient=efficient 
         )
